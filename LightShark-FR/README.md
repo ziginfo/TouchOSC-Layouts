@@ -9,7 +9,7 @@ N'hésitez pas à me contacter si vous avez des suggestions ou des demandes et t
 Amusez-vous
 
 
-## TouchOSC Layout for LightShark (French Edition)
+### TouchOSC Layout for LightShark (French Edition)
 This is an French Edition of the official LightShark TouchOSC Layout
 
 In Touch OSC, the Remote-Out Port should be set to 8000 and Remote-IN port to 9000 ! But this can be changed also in the User-Preferences in LightShark, if desired !  (see the screenshot)  
