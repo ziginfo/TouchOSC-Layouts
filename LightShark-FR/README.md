@@ -1,8 +1,8 @@
-## TouchOSC Layout pour LightShark (Edition Française)
-Ceci est une édition française de la mise en page officielle LightShark TouchOSC
+## TouchOSC Layout pour LightShark (Version Française)
+Ceci est une version française de la mise en page officielle LightShark TouchOSC
 
 Dans TouchOSC, le port Remote-Out doit être réglé sur 8000 et le port Remote-IN sur 9000 !     Mais cela peut également être modifié dans les Préférences Utilisateur dans LightShark, si vous le souhaitez ! (voir la capture d'écran)    
-LightShark a un très pauvre OSC-Feedback ! Veuillez utiliser le bouton SYNC pour obtenir des rares retours d'infos depuis LightShark. Mais malheureusement, il n'y a aucun retour d'info sur les noms ni aucun autre texte ; et aucun retour sur les état on/off des Bouton Executor. J'ai ajouté quelques champs de texte sur ces boutons et vous pouvez définir vos noms personnalisés si vous le souhaitez...
+LightShark a un très pauvre OSC-Feedback ! Le LightShark renverra toutes les secondes les rares retours d'infos... Mais malheureusement, il n'y a aucun retour d'info sur les noms ni aucun autre texte ; et aucun retour sur les état on/off des Bouton Executor. J'ai ajouté quelques champs de texte sur ces boutons et vous pouvez définir vos noms personnalisés si vous le souhaitez...
 
 N'hésitez pas à me contacter si vous avez des suggestions ou des demandes et toute aide est toujours la bienvenue !!
 
