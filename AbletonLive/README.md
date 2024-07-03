@@ -6,10 +6,11 @@ Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Netwo
 
 This Layout is still WiP (work in progress) !  I will add some more features in the future. Takes a while to get it done as the OSC-library is quite complexe.   
 It seems that Master-Track Scenes Control will not work for instance as those controls are not included in the AbletonOSC Python-Script ...
-#### The latest Version is V2.4
-I just added some more Feedback-Features...   
-We have now Feedback from the Devices (Instruments, Plugins etc), still no control from TouchOSC to any Device though (I am working on it...). Concerning the Device-Parameter-Feedback from Live, there is no "listen" function to assure contious Feedback; so this must me requested by the user. I added a sort of "auto-request" with ajustable times.       
+#### The latest Version is V2.5   
+We have now Feedback from the Devices (Instruments, Plugins etc), and we have control from TouchOSC to any Device. Concerning the Device-Parameter-Feedback from Live, there is no "listen" function to assure contious Feedback. When you change the Parameter-Offset-Value this requests also the new Parameter-Values from your Live Session. For manual Feedback-Request click on the Offset-Number-Field. I added also a sort of "auto-request" with ajustable times which will request Feedback from Live frequently, so that changes in Live will also be reflected in TouchOSC.       
 Please be careful with Feedback-Requests in general as Live can send back a huge amount of Data which will cause the TouchOSC-Remote to slow down and/or create lags and latency. With this in mind please activate only the Feedback you'll need ! For example, Stereo-Meter-Feedback will send back at least 5 or 6 times more Data than Mono-Meter-Feedback. Stereo-Meter-Feedback is Peak-Level showing and Mono-Meter-Feedback is RMS-Level showing. 
+
+Control should be work quite smooth, but to avoid any not-wanted errors and "controls" there is a button where you can enable or disable Global Control.
 
 Please contact me if you have any suggestions, demands or requests and any help is always welcome !!   
 Have Fun ...  
