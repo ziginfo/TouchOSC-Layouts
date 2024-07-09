@@ -28,7 +28,7 @@ Control for Device-Parameters should work quite smooth, but to avoid any not-wan
 ---
 **About Feedback from the Live-Session :**    
 For many Feedbacks there is a "start_listen" feature which tells Live to send Feedback as soon as there are any changes in the session (for example : Names, Volumes, Mutes, Solo etc etc). Most of these "start_listens" are activated automatically, when the TouchOSC-Layout goes online. Others may be activated manually with the "Sync Many" Button.   
-And there are some parameters and values that cannot be followed automatically. This is the case for the Device-Parameters and also for the "Aux-Send" Levels. To have continuous Feedback also for them I added a continuous feedback-request for each. You can set the Feedback-Rate (from slow to fast, classically at 3, 1 or   0,5 seconds.   
+And there are some parameters and values that cannot be followed automatically. This is the case for the "Device-Parameters" and  for the "Aux-Send" Levels; and also for the "Fired-Clips"-Feedback To have continuous Feedback also for them I added a continuous feedback-request for each. You can set the Feedback-Rate (from slow to fast, classically at 3, 1 or   0,5 seconds.   
 
 ---
 Please contact me if you have any suggestions, demands or requests and any help is always welcome !!   
