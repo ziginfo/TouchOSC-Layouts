@@ -10,18 +10,19 @@ Please be careful with Feedback-Requests in general as Live can send back a huge
 
 Control for Device-Parameters should be work quite smooth, but to avoid any not-wanted errors and "controls" there is a button where you can enable or disable the "Global Control".
 
-In the Mixer-Tab the colored Dots have the following signification :
+**In the Mixer-Tab the colored Dots have the following signification :**
 - Light Cyan Dot means this Track is a (non-folded) Group-Track
 - Deep Blue Dot means : this Track is a folded Group (SEL will not work for the "yellow-dotted" Tracks on the right!)
 - Yellow Dot means : this track is part of a Group
 - The colored (purple) Dots further up and beside the Faders just show the 0-db point of the Fader
 
-There are some lacks and limitations, and some hidden issues due to the Python-OSC-Library; maybe some of them will be fixed in the future..??
+**There are some lacks and limitations, and some hidden issues due to the Python-OSC-Library; maybe some of them will be fixed in the future..??**
 - it is not yet possible to play/fire scenes
 - there is at the moment no control on the Master-Track
 - no control either for the Aux-Return-Tracks (and they are even not shown in the Track-List !)
 - when a Track is part of a Group, it will always be shown in the TouchOSC-Layout, no matter if the group is folded or deployed ! But when the group is folded (blue-dotted), the channels inside the group cannot be selected anymore by Remote (SEL)! (You'll see that the SEL-Button stays lit in the TouchOSC-Layout). To select a Track when it is part of a group, the group must be unfolded (cyan-dotted)
 
+**About Feedback fromthe Live-Session :**
 For many Feedbacks there is a "start_listen" feature which tells Live to send Feedback as soon as there are any changes in the session (for example : Names, Volumes, Mutes, Solo etc etc). Most of these "start_listens" are activated automatically, when the TouchOSC-Layout goes online. Others may be activated manually with the "Sync Many" Button.   
 And there are some parameters and values that cannot be followed automatically. This is the case for the Device-Parameters and also for the "Aux-Send" Levels. To have continuous Feedback also for them I added a continuous feedback-request for each. You can set the Feedback-Rate (from slow to fast, classically at 3, 1 or   0,5 seconds.   
 
