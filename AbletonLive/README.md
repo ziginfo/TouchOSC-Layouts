@@ -22,7 +22,7 @@ Control for Device-Parameters should be work quite smooth, but to avoid any not-
 - no control either for the Aux-Return-Tracks (and they are even not shown in the Track-List !)
 - when a Track is part of a Group, it will always be shown in the TouchOSC-Layout, no matter if the group is folded or deployed ! But when the group is folded (blue-dotted), the channels inside the group cannot be selected anymore by Remote (SEL)! (You'll see that the SEL-Button stays lit in the TouchOSC-Layout). To select a Track when it is part of a group, the group must be unfolded (cyan-dotted)
 
-**About Feedback fromthe Live-Session :**
+**About Feedback fromthe Live-Session :**    
 For many Feedbacks there is a "start_listen" feature which tells Live to send Feedback as soon as there are any changes in the session (for example : Names, Volumes, Mutes, Solo etc etc). Most of these "start_listens" are activated automatically, when the TouchOSC-Layout goes online. Others may be activated manually with the "Sync Many" Button.   
 And there are some parameters and values that cannot be followed automatically. This is the case for the Device-Parameters and also for the "Aux-Send" Levels. To have continuous Feedback also for them I added a continuous feedback-request for each. You can set the Feedback-Rate (from slow to fast, classically at 3, 1 or   0,5 seconds.   
 
