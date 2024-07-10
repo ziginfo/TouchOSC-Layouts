@@ -5,8 +5,10 @@ OSC ports are set by default ! Ableton Live is listening on Port 11000 and sendi
 Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Network (Wi-Fi Routers etc) 
 
 ---
-#### The latest Version is V2.6
-Some more new features. We now have also the Aux-Send-Levels available. Please note that there is no automatic Feedback from the Live-Session for these levels ! So you may request Feedback manually or with the Request-Loop (which has three different Request-Rates from 0,5  to 3 seconds.   
+#### The latest Version is V2.7
+Some more new features... 
+Added Color-Feedback from the Tracks.   
+We now have also the Aux-Send-Levels available. Please note that there is no automatic Feedback from the Live-Session for these levels ! So you may request Feedback manually or with the Request-Loop (which has three different Request-Rates from 0,5  to 3 seconds.   
 We have also Feedback from the Devices (Instruments, Plugins etc), and we have control from TouchOSC to any Device. Here also, Device-Parameter-Feedback from Live has no "listen" function to send contious Feedback. When you change the Parameter-Offset-Value this requests also the new Parameter-Values from your Live Session. For manual Feedback-Request click on the Offset-Number-Field. I added also a sort of "auto-request" with ajustable Rate-Times which will request Feedback from Live frequently, so when there are changes in the Live-Session, this will also be reflected in TouchOSC.       
 Please be careful with Feedback-Requests in general as Live can send back a huge amount of Data which will cause the TouchOSC-Remote to slow down and/or create lags and latency. With this in mind please activate only the Feedback you'll need ! For example, Stereo-Meter-Feedback will send back at least 5 or 6 times more Data than Mono-Meter-Feedback. Stereo-Meter-Feedback is Peak-Level showing and Mono-Meter-Feedback is RMS-Level showing.   
 
