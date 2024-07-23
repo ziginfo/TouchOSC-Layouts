@@ -2,8 +2,7 @@
 Pour que ce TouchOSC Template puisse fonctionner correctement, vous devez d'abord télécharger et installer : [AbletonOSC](https://github.com/ideoforms/AbletonOSC) puis l'activer dans Ableton Live !!    
 Cette librairie Python a été écrite et mis à disposition gratuitement par Daniel Jones; un grand merci à lui !!  
 
-Les ports OSC sont configuré par défaut ! Ableton Live "écoute" sur le port 11000 et envoie des réponses et du feedback sur le port 11001 ;     
-donc dans TouchOSC les ports doivent être réglés sur : Port d'entrée : 11001 et Port de sortie : 11000   
+Les ports OSC sont configuré par défaut ! Ableton Live "écoute" sur le port 11000 et envoie des réponses et du feedback sur le port 11001 ; donc dans TouchOSC les ports doivent être réglés sur : Port d'entrée : 11001 et Port de sortie : 11000   
 Le contrôle  et le feedback peuvent se faire par Localhost (127.0.0.1) ou par n'importe quel "réseau privé" (routeurs Wi-Fi, etc.)  
 
 ---
