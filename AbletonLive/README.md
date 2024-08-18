@@ -5,8 +5,9 @@ OSC ports are set by default ! Ableton Live is listening on Port 11000 and sendi
 Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Network (Wi-Fi Routers etc) 
 
 ---
-#### I just finished  V3   
-added now two more Pages for Midi actions; one is a Keyboard-sort of controller; and the other one a sort of Drum-Pad-Controller
+#### The latest Version is  V3   
+added now two more Pages for Midi actions; one is a Keyboard-sort of controller; and the other one a sort of Drum-Pad-Controller    
+To get MIDI to work correctly, you must use some Virtual-MIDI-Interface( for example Virtual-MIDI-Port in Mac-OS; or third-party software as loopMIDI or others); and configure them in TouchOSC-Preferences and Ableton Live-Preferences. See also the "pics".      
 #### The other Version is V2.8
 Some more new features...   
 Added Scroll-Feature on the Clips-Page : Up & Down and Left & Right.    
