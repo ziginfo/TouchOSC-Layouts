@@ -6,7 +6,10 @@ Les ports OSC sont configuré par défaut ! Ableton Live "écoute" sur le port 1
 Le contrôle  et le feedback peuvent se faire par Localhost (127.0.0.1) ou par n'importe quel "réseau privé" (routeurs Wi-Fi, etc.)  
 
 ---
-#### La Version actuelle est la  V2.8.1
+#### La dernière version est la V3
+Deux pages de layout supplémentaires ont été ajoutées pour les actions Midi ; l'une est un clavier ; et l'autre un Pad de batterie
+Pour que le MIDI fonctionne correctement, vous devez utiliser une interface MIDI virtuelle (par exemple "Virtual-MIDI" sous Mac OS ; ou un logiciel tiers comme "loopMIDI" ou autres) ; et les configurer dans les préférences de TouchOSC et d'Ableton Live. Voir aussi les "pics".
+#### L'ancienne Version (sans le MIDI) est la  V2.8.1
 Les derniers ajouts...
 Ajout d'une fonction de défilement sur la page Clips : haut et bas et gauche et droite.
 Ajout de feedback pour les couleurs des pistes.
