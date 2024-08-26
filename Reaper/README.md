@@ -1,6 +1,6 @@
 ## Reaper  Control and Feedback with TouchOSC    
-This Template is based on [Alberto Valdez](https://github.com/AlbertoV5) Reaper Templates
-OSC ports are set by default ! Reaper is listening on Port 7000 and sending Feedback on Port 9000 ; so in TouchOSC the ports must be set to : Input Port : 9000 and Output Port : 7000    
+This Template is based on the Reaper Templates from [Alberto Valdez](https://github.com/AlbertoV5) ...
+OSC ports are set by default ! Reaper is listening on Port 7000 and sending Feedback on Port 9000 ; so in TouchOSC the ports must be set to : Receive Port : 9000 and Send Port : 7000  And please use Connection 2 (as connection 1 will be used for ReaLearn)        
 Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Network (Wi-Fi Routers etc) 
 
 ---
