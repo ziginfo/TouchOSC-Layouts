@@ -1,7 +1,7 @@
 ## Ableton Live  Control and Feedback with TouchOSC
 To get this OSC-Layout run correctly, you must first donwload and install the free [AbletonOSC](https://github.com/ideoforms/AbletonOSC) Remote-Script and than activate it in Ableton Live !!   
 
-OSC ports are set by default ! Ableton Live is listening on Port 11000 and sending Feedback on Port 11001 ; so in TouchOSC the ports must be set to : Input Port : 11001 and Output Port : 11000    
+OSC ports are set by default ! Ableton Live is listening on Port **11000** and sending Feedback on Port **11001** ; so in TouchOSC the ports must be set to : Input Port : **11001** and Output Port : **11000**    
 Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Network (Wi-Fi Routers etc) 
 
 ---
