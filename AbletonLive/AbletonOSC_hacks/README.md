@@ -1,6 +1,6 @@
 ## Extended Control for AbletonOSC
 [Jordan Snyder](https://github.com/jordansnyder) added a OSC-Command to be able to play "scenes" with the OSC-command : "/live/song/fire/scene {sceneIndex}" ...Please be aware that Scene N°1 is indexed "0" !      
-To get this OSC-message to work just replace the file "song.py" which is located in the folder "abletonosc" inside the Main-Folder > "AbletonOSC" (and restart Ableton Live)   
+To get this OSC-message to work just download this new file "song.py" and replace the older file "song.py" which is located in the folder "abletonosc" inside the Main-Folder > "AbletonOSC" (and restart Ableton Live)   
 
 Please contact me if you have any suggestions or requests and any help is always welcome !!
 
