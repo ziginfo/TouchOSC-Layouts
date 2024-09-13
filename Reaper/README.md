@@ -4,7 +4,7 @@ OSC ports are set by default ! Reaper is listening on Port **7000** and sending 
 Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Network (Wi-Fi Routers etc) 
 
 ---
-#### The latest Version is  V2.2    
+#### The latest Version is  V3 
 
 ---
 Please contact me if you have any suggestions, demands or requests and any help is always welcome !!   
