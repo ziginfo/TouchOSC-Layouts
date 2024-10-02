@@ -1,4 +1,4 @@
-##BlinderKitten  Control and Feedback with TouchOSC   
+## BlinderKitten  Control and Feedback with TouchOSC   
 OSC ports are set by default ! BlinderKitten is listening on Port **43000** ; so in TouchOSC the ports must be set to  Output Port : **43000**    
 OSC Feedback is actually not available; but should be sent on port  **43001** once it will be implemented by the developper [Norbert Rostaing](https://github.com/norbertrostaing/)
 
