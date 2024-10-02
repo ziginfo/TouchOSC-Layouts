@@ -6,8 +6,8 @@ Please note also that this TouchOSC-Layout is still in developpement (October 20
 
 ---
 #### The actuel Version is  V3 
+
+---
   
 Please contact me if you have any suggestions, demands or requests and any help is always welcome !!   
 Have Fun ... 
-
----
