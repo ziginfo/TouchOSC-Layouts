@@ -5,7 +5,8 @@ OSC Feedback is actually not available; but should be sent on port  42001 once i
 Please note also that this TouchOSC-Layout is still in developpement (October 2024) and many features may not work correctly or not work at all... so please be patient and send me a message about bugs and issues... and come back here to look after newer versions     
 
 ---
-#### The actuel Version is  V1.2 
+#### The actuel Version is  V1.5   
+You can have feedback by MIDI and/or SysEx. Please use any virtual MIDI-Port for this....and you must creat e a virtual MIDI-Interface in BlinderKitten (or import the "SysExText.mochi")
 
 ---
 BlinderKitten is available for free on the [BK-Website](https://blinderkitten.lighting/)    
