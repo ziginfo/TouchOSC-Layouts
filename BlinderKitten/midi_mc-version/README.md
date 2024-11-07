@@ -13,8 +13,6 @@ For Windows or Linux, I don't know how these virtual ports may work, because I a
 
 The best way to "learn" how the layout works, just give it a try ans play around with it !! if you've already used a hardware in Mackie-Control, you'll find your way around very quickly...
 
-have Fun....
-
 ---
 BlinderKitten is available for free on the [BK-Website](https://blinderkitten.lighting/)    
 
