@@ -1,4 +1,4 @@
-## BlinderKitten  Control and Feedback with TouchOSC   
+## BlinderKitten  Remote Control and Feedback with OpenStageControl  
 OSC ports are set by default ! BlinderKitten is listening on Port **42000** ; so in OpenStageControl the ports must be set to  Output Port : **42000**    
 OSC Feedback is actually not available; but should be sent on port  42001 once it will be implemented by the developper [Norbert Rostaing](https://github.com/norbertrostaing/)
 
