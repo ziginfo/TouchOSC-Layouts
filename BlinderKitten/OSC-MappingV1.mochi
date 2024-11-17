@@ -576,6 +576,86 @@
             {
               "parameters": [
                 {
+                  "value": "/virtfaders/page/1",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Reset F-Page1",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Virtual Faders Go To Page",
+                      "type": "Virtual Faders Go To Page"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/virtbuttons/page/1",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Reset B-Page1",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Virtual Buttons Go To Page",
+                      "type": "Virtual Buttons Go To Page"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
                   "value": "/stopallcuelists",
                   "controlAddress": "/address"
                 },
@@ -906,6 +986,45 @@
                       ],
                       "niceName": "Select Window",
                       "type": "Select Window"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/killallcuelists",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "KillAllCuelists",
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Kill All Cuelists",
+                      "type": "Kill All Cuelists"
                     }
                   ],
                   "viewOffset": [
