@@ -20,11 +20,7 @@
             {
               "parameters": [
                 {
-                  "value": false,
-                  "controlAddress": "/local"
-                },
-                {
-                  "value": "192.168.50.115",
+                  "value": "127.0.0.1",
                   "controlAddress": "/remoteHost"
                 },
                 {
@@ -44,6 +40,7 @@
           "viewZoom": 1.0
         },
         "mappings": {
+          "editorIsCollapsed": true,
           "items": [
             {
               "parameters": [
@@ -766,6 +763,144 @@
                       "parameters": [
                         {
                           "value": "Programmers",
+                          "controlAddress": "/window"
+                        }
+                      ],
+                      "niceName": "Select Window",
+                      "type": "Select Window"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/fixtureswindow",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "FixturesWindow",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Fixtures",
+                          "controlAddress": "/window"
+                        }
+                      ],
+                      "niceName": "Select Window",
+                      "type": "Select Window"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/patchsheet",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "PatchSheet",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Patch sheet",
+                          "controlAddress": "/window"
+                        }
+                      ],
+                      "niceName": "Select Window",
+                      "type": "Select Window"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/cuelistsheet",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "CuelistSheet",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Cuelist sheet",
                           "controlAddress": "/window"
                         }
                       ],
