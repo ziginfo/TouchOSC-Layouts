@@ -7,7 +7,6 @@ The "standard" module of the BlinderKitten's GUI (in the Preferences) can be use
  
 ---
 #### The actuel Version is  V1.9    
-You can have feedback by MIDI and/or SysEx. Please use any virtual MIDI-Port for this....and you must creat e a virtual MIDI-Interface in BlinderKitten (or import the "SysExText.mochi")
 
 ---
 BlinderKitten is available for free on the [BK-Website](https://blinderkitten.lighting/)    
@@ -29,6 +28,9 @@ Vous pouvez activer un module vierge (dans "**Interfaces**" -> "**+**" -> "**OSC
 Au plus simple utilisez les ports par défaut, c-à-d pour le Input le port **13000** et en Output le **13001** ! Dans TouchOSC ceci doit donc être en correspondant : Send-Port est **13000** et Receive Port est **13001**
 
 Le module "standard" du GUI de BlinderKitten (dans les préférences) peut être utilisé ou pas, mais dans tous les cas les ports doivent être différents (je conseille de garder 42000 et 45000 par exemple)
+
+---
+#### La Version actuelle est la  V1.9   
 
 ---
 BlinderKitten est gratuitement disponible et téléchargeable sur le  [BK-Sie-Internet](https://blinderkitten.lighting/)    
