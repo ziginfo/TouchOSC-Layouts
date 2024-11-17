@@ -33,7 +33,7 @@ Le module "standard" du GUI de BlinderKitten (dans les préférences) peut être
 #### La Version actuelle est la  V1.9   
 
 ---
-BlinderKitten est gratuitement disponible et téléchargeable sur le  [BK-Sie-Internet](https://blinderkitten.lighting/)    
+BlinderKitten est gratuitement disponible et téléchargeable sur le  [Site-Internet](https://blinderkitten.lighting/)    
 
 TouchOSC peut être téléchargé sur le [site Web Hexler](https://hexler.net/touchosc)...
 vous pouvez l'utiliser gratuitement ou payer la licence qui n'est vraiment pas chère (environ 25 euros)
