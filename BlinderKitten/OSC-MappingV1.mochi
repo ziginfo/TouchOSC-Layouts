@@ -1,0 +1,1067 @@
+{
+  "interfaces": [
+    {
+      "parameters": [
+        {
+          "value": true,
+          "controlAddress": "/internalMappings"
+        },
+        {
+          "value": true,
+          "controlAddress": "/internalFeedbacks"
+        }
+      ],
+      "niceName": "OSC-MappingV1",
+      "containers": {
+        "oscInput": {
+        },
+        "oscOutputs": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": false,
+                  "controlAddress": "/local"
+                },
+                {
+                  "value": "192.168.50.115",
+                  "controlAddress": "/remoteHost"
+                },
+                {
+                  "value": 13001,
+                  "hexMode": false,
+                  "controlAddress": "/remotePort"
+                }
+              ],
+              "niceName": "OSC Output",
+              "type": "BaseItem"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "mappings": {
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/1",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 1",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "editorIsCollapsed": true,
+                  "items": [
+                    {
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/2",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 2",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 2,
+                          "hexMode": false,
+                          "controlAddress": "/encoder"
+                        }
+                      ],
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/3",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 3",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 3,
+                          "hexMode": false,
+                          "controlAddress": "/encoder"
+                        }
+                      ],
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/4",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 4",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 4,
+                          "hexMode": false,
+                          "controlAddress": "/encoder"
+                        }
+                      ],
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/5",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 5",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 5,
+                          "hexMode": false,
+                          "controlAddress": "/encoder"
+                        }
+                      ],
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/6",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 6",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 6,
+                          "hexMode": false,
+                          "controlAddress": "/encoder"
+                        }
+                      ],
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/7",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 7",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "editorIsCollapsed": true,
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 7,
+                          "hexMode": false,
+                          "controlAddress": "/encoder"
+                        }
+                      ],
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/encoder/8",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "Encoder 8",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": 8,
+                          "hexMode": false,
+                          "controlAddress": "/encoder"
+                        }
+                      ],
+                      "niceName": "Encoder Value",
+                      "type": "Encoder Value"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/virtfaders/pageup",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "pageup-F",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Virtual Faders Page Up",
+                      "type": "Virtual Faders Page Up"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/virtfaders/pagedown",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "pagedown-F",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Virtual Faders Page Down",
+                      "type": "Virtual Faders Page Down"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/virtbuttons/pageup",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "pageup-B",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Virtual Buttons Page Up",
+                      "type": "Virtual Buttons Page Up"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/virtbuttons/pagedown",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "pagedown-B",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Virtual Buttons Page Down",
+                      "type": "Virtual Buttons Page Down"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/stopallcuelists",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "StopAllCuelists",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Off All cuelists",
+                      "type": "Off All cuelists"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/stopallfx",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "StopAllFx",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Stop All Effects",
+                      "type": "Stop All Effects"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/stopallcarousel",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "StopAllCarousel",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Stop All Carousels",
+                      "type": "Stop All Carousels"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/loadallcuelists",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "LoadAllCuelists",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "niceName": "Load all cuelists in programmer",
+                      "type": "Load all cuelists in programmer"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "/programmerwindow",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/inputRange"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/outputRange"
+                }
+              ],
+              "niceName": "ProgrammerWindow",
+              "editorIsCollapsed": true,
+              "containers": {
+                "actions": {
+                  "items": [
+                    {
+                      "parameters": [
+                        {
+                          "value": "Programmers",
+                          "controlAddress": "/window"
+                        }
+                      ],
+                      "niceName": "Select Window",
+                      "type": "Select Window"
+                    }
+                  ],
+                  "viewOffset": [
+                    0,
+                    0
+                  ],
+                  "viewZoom": 1.0
+                }
+              },
+              "type": "BaseItem"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        },
+        "feedbacks": {
+          "editorIsCollapsed": true,
+          "items": [
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": "/encoder/1/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 1",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": 2,
+                  "hexMode": false,
+                  "controlAddress": "/sourceNumber"
+                },
+                {
+                  "value": "/encoder/2/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 2",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": 3,
+                  "hexMode": false,
+                  "controlAddress": "/sourceNumber"
+                },
+                {
+                  "value": "/encoder/3/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 3",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": 4,
+                  "hexMode": false,
+                  "controlAddress": "/sourceNumber"
+                },
+                {
+                  "value": "/encoder/4/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 4",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": 5,
+                  "hexMode": false,
+                  "controlAddress": "/sourceNumber"
+                },
+                {
+                  "value": "/encoder/5/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 5",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": 6,
+                  "hexMode": false,
+                  "controlAddress": "/sourceNumber"
+                },
+                {
+                  "value": "/encoder/6/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 6",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": 7,
+                  "hexMode": false,
+                  "controlAddress": "/sourceNumber"
+                },
+                {
+                  "value": "/encoder/7/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 7",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            },
+            {
+              "parameters": [
+                {
+                  "value": "Text",
+                  "controlAddress": "/dataType"
+                },
+                {
+                  "value": "Encoder",
+                  "controlAddress": "/sourceType"
+                },
+                {
+                  "value": 8,
+                  "hexMode": false,
+                  "controlAddress": "/sourceNumber"
+                },
+                {
+                  "value": "/encoder/8/name",
+                  "controlAddress": "/address"
+                },
+                {
+                  "value": [
+                    0.0,
+                    1.0
+                  ],
+                  "controlAddress": "/oscOutputRange"
+                }
+              ],
+              "niceName": "Encoder 8",
+              "editorIsCollapsed": true,
+              "type": "BaseItem"
+            }
+          ],
+          "viewOffset": [
+            0,
+            0
+          ],
+          "viewZoom": 1.0
+        }
+      },
+      "type": "OSC"
+    }
+  ],
+  "channelFamilies": null,
+  "fixtureType": null,
+  "fixture": null,
+  "group": null,
+  "preset": null,
+  "command": null,
+  "cuelist": null,
+  "programmer": null,
+  "curvePreset": null,
+  "timingPreset": null,
+  "carousel": null,
+  "mapper": null,
+  "tracker": null,
+  "multiplicators": null,
+  "effect": null,
+  "2dPlans": null,
+  "virtualButton": null,
+  "virtualFaderCol": null
+}
