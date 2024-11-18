@@ -12,7 +12,6 @@ The "standard" module of the BlinderKitten's GUI (in the Preferences) can be use
 BlinderKitten is available for free on the [BK-Website](https://blinderkitten.lighting/)    
 
 TouchOSC can be downloaded on the [Hexler-Website](https://hexler.net/touchosc)...    
-you can use it for free or pay the fairely low Licence-Fee (about 25 euros)
 
 ---
 Please contact me if you have any suggestions, demands or requests and any help is always welcome !!   
@@ -36,7 +35,6 @@ Le module "standard" du GUI de BlinderKitten (dans les préférences) peut être
 BlinderKitten est gratuitement disponible et téléchargeable sur le  [Site-Internet](https://blinderkitten.lighting/)    
 
 TouchOSC peut être téléchargé sur le [site Web Hexler](https://hexler.net/touchosc)...
-vous pouvez l'utiliser gratuitement ou payer la licence qui n'est vraiment pas chère (environ 25 euros)
 
 ---
 Contactez-moi si vous avez des suggestions, des demandes ou des requêtes et toute aide est toujours la bienvenue !!
