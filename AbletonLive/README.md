@@ -6,6 +6,7 @@ Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Netwo
 
 ---
 #### The latest Version is  V3   
+Scenes can now be played from the LaunchPad with the new function "Fire Scenes" !    
 added now two more Pages for Midi actions; one is a Keyboard-sort of controller; and the other one a sort of Drum-Pad-Controller    
 To get MIDI to work correctly, you must use some Virtual-MIDI-Interface( for example Virtual-MIDI-Port in Mac-OS; or third-party software as loopMIDI or others); and configure them in TouchOSC-Preferences and Ableton Live-Preferences. See also the "pics".      
 #### The other Version is V2.8
