@@ -7,6 +7,7 @@ Le contrôle  et le feedback peuvent se faire par Localhost (127.0.0.1) ou par n
 
 ---
 #### La dernière version est la V3
+Maintenant des Scenes peuvent être declenchées dans le LaunchPad, via la fonction "Fire Scene"....   
 Deux pages de layout supplémentaires ont été ajoutées pour les actions Midi ; l'une est un clavier ; et l'autre un Pad de batterie
 Pour que le MIDI fonctionne correctement, vous devez utiliser une interface MIDI virtuelle (par exemple "Virtual-MIDI" sous Mac OS ; ou un logiciel tiers comme "loopMIDI" ou autres) ; et les configurer dans les préférences de TouchOSC et d'Ableton Live. Voir aussi les "pics".
 #### L'ancienne Version (sans le MIDI) est la  V2.8.1
