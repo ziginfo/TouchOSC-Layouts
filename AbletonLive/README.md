@@ -1,5 +1,5 @@
 ## Ableton Live  Control and Feedback with TouchOSC
-To get this OSC-Layout run correctly, you must first donwload and install the free [AbletonOSC](https://github.com/ideoforms/AbletonOSC) Remote-Script and than activate it in Ableton Live !! Be shure to have the latest version of AbletonOSC as there heve been added some features in january 2025 (as for example play scenes etc)   
+To get this OSC-Layout run correctly, you must first donwload and install the free [AbletonOSC](https://github.com/ideoforms/AbletonOSC) Remote-Script and than activate it in Ableton Live !! Be shure to have the latest version of AbletonOSC as there is a whole new class for Scenes, since january 2025 (with functions as fire-scenes, scene-name, scene-tempo etc)   
 
 OSC ports are set by default ! Ableton Live is listening on Port **11000** and sending Feedback on Port **11001** ; so in TouchOSC the ports must be set to : Input Port : **11001** and Output Port : **11000**    
 Remote Control and Feedback can be by Localhost (127.0.0.1) or any private Network (Wi-Fi Routers etc) 
