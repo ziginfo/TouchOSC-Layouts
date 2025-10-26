@@ -9,7 +9,7 @@ TouchOSC can be downloaded from the [Hexler Website](https://hexler.net/touchosc
 OSC-Control must be activated in the MiX16 Show-Cue parameters-setup !   
 The IP-Addresses and the OSC INPUT and OUTPUT Ports must be set correctly in both : TouchOSC and MiX16 Show Cue !  
 If the two Apps are on the same computer the IP-Address should be : 127.0.0.1 ...  
-In the pics folder you'll see some images of how to configure Show-Cue and TouchOSC; I used the ports 7200 and 7201... but you can use any free port that is not in use otherwiese !   
+In the pics folder you'll see some images of how to configure Show-Cue and TouchOSC; I used the ports 7200 and 7201... but you can use any free port that is not in use otherwise !   
 
 ---
 I sometimes update some of these Layouts, so  it may be worth to [come back here](https://github.com/ziginfo/TouchOSC-Layouts/tree/main/MiX16_ShowCuePro) from time to time, to see if there are any updates (usually notified in the Readme-Files).     
