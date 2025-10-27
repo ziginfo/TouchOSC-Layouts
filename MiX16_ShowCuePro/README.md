@@ -4,7 +4,9 @@ This is a template for [MiX16 App ShowCuePro](https://mix16showcue.com/) forTouc
 TouchOSC can be downloaded from the [Hexler Website](https://hexler.net/touchosc)...   
 
 ---
-#### The latest Version is  V2.4    
+#### The latest Version is  V2.5   
+
+We now have full Feedback in TouchOSC. ShowCue-Pro Version should be at least V4.8 (otherwise you will miss somme OSC-Feedback-Datas !!
 
 OSC-Control must be activated in the MiX16 Show-Cue parameters-setup !   
 The IP-Addresses and the OSC INPUT and OUTPUT Ports must be set correctly in both : TouchOSC and MiX16 Show Cue !  
