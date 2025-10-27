@@ -6,7 +6,7 @@ TouchOSC can be downloaded from the [Hexler Website](https://hexler.net/touchosc
 ---
 #### The latest Version is  V2.5   
 
-We now have full Feedback in TouchOSC. ShowCue-Pro Version should be at least V4.8 (otherwise you will miss somme OSC-Feedback-Datas !!
+We now have full and rich Feedback by OSC. ShowCue-Pro Version should be at least V4.8 (otherwise you will miss somme OSC-Feedback-Datas !!
 
 OSC-Control must be activated in the MiX16 Show-Cue parameters-setup !   
 The IP-Addresses and the OSC INPUT and OUTPUT Ports must be set correctly in both : TouchOSC and MiX16 Show Cue !  
